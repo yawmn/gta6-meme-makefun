@@ -1,0 +1,151 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>GTA 6 meme · make.fun</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  html, body { width: 1200px; height: 675px; overflow: hidden; background: #0b0518; }
+  .stage { position: relative; width: 1200px; height: 675px; overflow: hidden;
+           font-family: "Liberation Sans Narrow", "DejaVu Sans", sans-serif; }
+
+  /* sky */
+  .sky { position: absolute; inset: 0 0 205px 0;
+         background: linear-gradient(180deg, #0a0520 0%, #1e0a3c 22%, #4d1052 45%,
+                     #952061 64%, #d23a5e 78%, #ff7a35 92%, #ffc46b 100%); }
+  .sun { position: absolute; left: 500px; top: 250px; width: 210px; height: 210px;
+         border-radius: 50%; background: radial-gradient(circle at 50% 40%, #fff2b8, #ffcf6a 45%, #ff8a3d 72%, rgba(255,120,50,0) 73%); }
+  .sun-stripes { position: absolute; left: 490px; top: 300px; width: 230px; height: 165px;
+         background: repeating-linear-gradient(180deg, rgba(11,5,24,0) 0 12px, rgba(11,5,24,.85) 12px 18px); }
+
+  /* skyline */
+  .skyline { position: absolute; left: 0; right: 0; bottom: 205px; height: 150px; }
+  .skyline svg { display: block; }
+
+  /* water */
+  .water { position: absolute; left: 0; right: 0; bottom: 120px; height: 86px;
+           background: linear-gradient(180deg, #6c1a56 0%, #33093f 55%, #170524 100%); }
+  .glitter { position: absolute; left: 520px; bottom: 122px; width: 170px; height: 80px;
+             background: repeating-linear-gradient(180deg, rgba(255,203,120,.85) 0 3px, rgba(255,203,120,0) 3px 11px);
+             -webkit-mask-image: radial-gradient(ellipse at 50% 0, #000 12%, transparent 62%); }
+
+  /* beach */
+  .beach { position: absolute; left: 0; right: 0; bottom: 0; height: 122px;
+           background: linear-gradient(180deg, #12071f 0%, #0a0414 100%); }
+
+  /* palms */
+  .palm { position: absolute; bottom: 90px; }
+  .palm.left  { left: -20px;  height: 470px; }
+  .palm.right { right: -30px; height: 400px; }
+
+  /* headline */
+  .scrim { position: absolute; left: 0; right: 0; top: 0; height: 470px;
+           background: radial-gradient(ellipse at 50% 40%, rgba(6,2,14,.62) 0%, rgba(6,2,14,.30) 55%, rgba(6,2,14,0) 78%); }
+
+  .kicker { position: absolute; top: 34px; left: 0; right: 0; text-align: center;
+            font-size: 26px; font-weight: 700; letter-spacing: 9px; color: #ffe9c9;
+            text-transform: uppercase; opacity: .92; }
+
+  .wasted { position: absolute; top: 92px; left: 0; right: 0; text-align: center;
+            font-size: 176px; font-weight: 700; line-height: 1; letter-spacing: 4px;
+            color: #e11d2e; text-transform: uppercase;
+            text-shadow: 0 6px 0 #6d0714, 0 0 46px rgba(225,29,46,.55); }
+
+  .ghost { position: absolute; right: 132px; top: 132px; width: 150px; height: 168px;
+           filter: drop-shadow(0 0 26px rgba(255,255,255,.35)); }
+
+  .caption { position: absolute; top: 300px; left: 0; right: 0; text-align: center;
+             color: #fff; font-weight: 700; font-size: 56px; line-height: 1.14;
+             text-shadow: 0 3px 0 rgba(0,0,0,.65), 0 0 24px rgba(0,0,0,.5); }
+  .caption .pay { color: #ffd166; }
+
+  /* footer */
+  .footer { position: absolute; left: 0; right: 0; bottom: 0; height: 108px;
+            background: #100718; border-top: 4px solid #ff2f8e; display: flex;
+            align-items: center; padding: 0 46px; gap: 26px; }
+  .footer .mark { width: 62px; height: 70px; flex: none; }
+  .footer .word { color: #fff; font-size: 52px; font-weight: 700; letter-spacing: -1px; }
+  .footer .word .dot { color: #ff2f8e; }
+  .footer .pitch { margin-left: auto; text-align: right; color: #f4e7ff;
+                   font-size: 27px; font-weight: 700; line-height: 1.22; }
+  .footer .pitch .hl { color: #ff8ec4; }
+</style>
+</head>
+<body>
+<div class="stage">
+
+  <div class="sky"></div>
+  <div class="sun"></div>
+  <div class="sun-stripes"></div>
+
+  <div class="skyline">
+    <svg width="1200" height="150" viewBox="0 0 1200 150" preserveAspectRatio="none">
+      <path fill="#220a35" d="M0 150V96h34v-16h18v16h26V84h30v12h22V62h26v34h16v-18h22v18h30V78h28v28h24V56h18v-14h4V30h6v12h4v14h18v42h26V86h30v20h24V70h26v24h20v-14h24v14h28V74h30v22h26V64h18v-12h5V36h6v16h5v12h16v44h28V88h30v16h24V58h26v40h22V80h26v24h30V66h26v28h24v-16h22v16h30V84h28v20h24V60h18v-10h4V38h6v12h4v14h18v32h26V90h30v16h28V72h26v22h22v-12h26v20h30V78h28v26h26V62h26v42h26V92h30v58z"/>
+    </svg>
+  </div>
+
+  <div class="water"></div>
+  <div class="glitter"></div>
+  <div class="beach"></div>
+
+  <!-- left palm -->
+  <div class="palm left">
+    <svg width="330" height="470" viewBox="0 0 330 470">
+      <path fill="#140626" d="M150 470c8-96 16-186 34-268l16 3c-16 82-22 170-26 265z"/>
+      <path fill="#140626" d="M188 214c-52-30-96-34-140-22 34-30 80-36 132-12zM188 210c-14-56-44-92-88-118 46 16 82 50 104 106zM190 208c26-52 62-80 118-88-44 28-76 60-98 100zM192 214c56-22 104-14 136 12-44-10-86-4-128 10zM190 216c30 26 46 56 50 96-22-34-48-62-78-82z"/>
+    </svg>
+  </div>
+
+  <!-- right palm -->
+  <div class="palm right">
+    <svg width="300" height="400" viewBox="0 0 300 400">
+      <path fill="#140626" d="M196 400c-6-78-14-150-30-214l14-3c14 66 20 138 24 217z"/>
+      <path fill="#140626" d="M168 190c44-26 82-30 120-20-30-26-70-30-114-10zM168 186c12-48 38-78 76-100-40 14-70 42-88 90zM166 184c-22-44-54-68-100-74 38 24 64 50 84 84zM164 190c-48-18-88-12-116 10 38-8 74-3 110 8z"/>
+    </svg>
+  </div>
+
+  <div class="scrim"></div>
+
+  <div class="kicker">GTA VI &nbsp;·&nbsp; Launch Week &nbsp;·&nbsp; Leonida</div>
+  <div class="wasted">Wasted</div>
+
+  <!-- make.fun ghost mascot -->
+  <svg class="ghost" viewBox="0 0 150 168" xmlns="http://www.w3.org/2000/svg">
+    <defs>
+      <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+        <stop offset="0%" stop-color="#ffffff"/>
+        <stop offset="100%" stop-color="#e2d6ff"/>
+      </linearGradient>
+      <radialGradient id="c" cx="35%" cy="30%" r="75%">
+        <stop offset="0%" stop-color="#ff9ecb"/>
+        <stop offset="60%" stop-color="#ff2f8e"/>
+        <stop offset="100%" stop-color="#c4106a"/>
+      </radialGradient>
+    </defs>
+    <path fill="url(#g)" d="M75 4C40 4 14 32 14 68v86c0 6 7 9 11 5l14-14 13 15c4 4 9 4 13 0l13-15 13 15c4 4 9 4 13 0l13-15 14 14c4 4 11 1 11-5V68C143 32 110 4 75 4z"/>
+    <!-- sparkle eyes -->
+    <path fill="#ff2f8e" d="M52 56c2 10 5 13 15 15-10 2-13 5-15 15-2-10-5-13-15-15 10-2 13-5 15-15z"/>
+    <path fill="#ff2f8e" d="M99 56c2 10 5 13 15 15-10 2-13 5-15 15-2-10-5-13-15-15 10-2 13-5 15-15z"/>
+    <!-- star coin -->
+    <path fill="url(#c)" stroke="#ffd166" stroke-width="3"
+          d="M75 92l10 22 24 2-18 16 6 23-22-12-22 12 6-23-18-16 24-2z"/>
+  </svg>
+
+  <div class="caption">
+    You respawn broke.<br>
+    <span class="pay">The ghost respawns paid.</span>
+  </div>
+
+  <div class="footer">
+    <svg class="mark" viewBox="0 0 150 168" xmlns="http://www.w3.org/2000/svg">
+      <path fill="#ffffff" d="M75 4C40 4 14 32 14 68v86c0 6 7 9 11 5l14-14 13 15c4 4 9 4 13 0l13-15 13 15c4 4 9 4 13 0l13-15 14 14c4 4 11 1 11-5V68C143 32 110 4 75 4z"/>
+      <path fill="#ff2f8e" d="M52 56c2 10 5 13 15 15-10 2-13 5-15 15-2-10-5-13-15-15 10-2 13-5 15-15z"/>
+      <path fill="#ff2f8e" d="M99 56c2 10 5 13 15 15-10 2-13 5-15 15-2-10-5-13-15-15 10-2 13-5 15-15z"/>
+    </svg>
+    <div class="word">make<span class="dot">.</span>fun</div>
+    <div class="pitch">Your AI agent earns <span class="hl">real money</span><br>in bounties. This meme is one.</div>
+  </div>
+
+</div>
+</body>
+</html>

@@ -1,0 +1,156 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="675" viewBox="0 0 1200 675">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#0a0520"/>
+      <stop offset="22%" stop-color="#1e0a3c"/>
+      <stop offset="45%" stop-color="#4d1052"/>
+      <stop offset="64%" stop-color="#952061"/>
+      <stop offset="78%" stop-color="#d23a5e"/>
+      <stop offset="92%" stop-color="#ff7a35"/>
+      <stop offset="100%" stop-color="#ffc46b"/>
+    </linearGradient>
+    <radialGradient id="sun" cx="50%" cy="42%" r="58%">
+      <stop offset="0%" stop-color="#fff4c4"/>
+      <stop offset="42%" stop-color="#ffd06b"/>
+      <stop offset="72%" stop-color="#ff8a3d"/>
+      <stop offset="100%" stop-color="#ff6a2e"/>
+    </radialGradient>
+    <linearGradient id="water" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#6c1a56"/>
+      <stop offset="55%" stop-color="#33093f"/>
+      <stop offset="100%" stop-color="#170524"/>
+    </linearGradient>
+    <linearGradient id="beach" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#150825"/>
+      <stop offset="100%" stop-color="#090312"/>
+    </linearGradient>
+    <linearGradient id="ghostbody" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffffff"/>
+      <stop offset="100%" stop-color="#ded0ff"/>
+    </linearGradient>
+    <radialGradient id="coin" cx="36%" cy="30%" r="72%">
+      <stop offset="0%" stop-color="#ffa6d2"/>
+      <stop offset="60%" stop-color="#ff2f8e"/>
+      <stop offset="100%" stop-color="#c4106a"/>
+    </radialGradient>
+    <radialGradient id="scrim" cx="50%" cy="42%" r="62%">
+      <stop offset="0%" stop-color="#06020e" stop-opacity="0.66"/>
+      <stop offset="60%" stop-color="#06020e" stop-opacity="0.30"/>
+      <stop offset="100%" stop-color="#06020e" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="glitter" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#ffcb78" stop-opacity="0.9"/>
+      <stop offset="100%" stop-color="#ffcb78" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="soft" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="18"/>
+    </filter>
+  </defs>
+
+  <rect width="1200" height="675" fill="#0b0518"/>
+
+  <!-- sky -->
+  <rect x="0" y="0" width="1200" height="470" fill="url(#sky)"/>
+
+  <!-- sunset glow behind the horizon -->
+  <ellipse cx="600" cy="470" rx="250" ry="86" fill="#ff9a45" opacity="0.30" filter="url(#soft)"/>
+
+  <!-- city skyline -->
+  <g fill="#220a35">
+    <rect x="0" y="366" width="1200" height="104"/>
+    <rect x="28" y="318" width="20" height="60"/>
+    <rect x="60" y="336" width="34" height="40"/>
+    <rect x="104" y="300" width="26" height="76"/>
+    <rect x="140" y="346" width="30" height="30"/>
+    <rect x="182" y="286" width="20" height="60"/><rect x="186" y="264" width="12" height="22"/>
+    <rect x="218" y="330" width="34" height="46"/>
+    <rect x="266" y="308" width="24" height="68"/>
+    <rect x="300" y="350" width="40" height="26"/>
+    <rect x="352" y="296" width="22" height="80"/>
+    <rect x="384" y="336" width="30" height="40"/>
+    <rect x="742" y="330" width="32" height="46"/>
+    <rect x="788" y="290" width="22" height="86"/><rect x="792" y="272" width="14" height="18"/>
+    <rect x="824" y="340" width="36" height="36"/>
+    <rect x="874" y="306" width="24" height="70"/>
+    <rect x="912" y="352" width="42" height="24"/>
+    <rect x="966" y="300" width="22" height="76"/><rect x="970" y="278" width="14" height="22"/>
+    <rect x="1000" y="334" width="34" height="42"/>
+    <rect x="1046" y="312" width="24" height="64"/>
+    <rect x="1082" y="352" width="38" height="24"/>
+    <rect x="1132" y="302" width="22" height="74"/><rect x="1136" y="280" width="14" height="22"/>
+  </g>
+
+  <!-- water -->
+  <rect x="0" y="470" width="1200" height="86" fill="url(#water)"/>
+  <g fill="#ffcb78" opacity="0.5">
+    <rect x="536" y="478" width="128" height="4"/>
+    <rect x="556" y="492" width="88" height="3"/>
+    <rect x="572" y="506" width="56" height="3"/>
+    <rect x="584" y="520" width="32" height="3"/>
+  </g>
+
+  <!-- beach -->
+  <rect x="0" y="556" width="1200" height="119" fill="url(#beach)"/>
+
+  <!-- left palm -->
+  <g fill="#120522">
+    <path d="M150 675c8-96 16-186 34-268l16 3c-16 82-22 170-26 265z"/>
+    <path d="M188 419c-52-30-96-34-140-22 34-30 80-36 132-12z"/>
+    <path d="M188 415c-14-56-44-92-88-118 46 16 82 50 104 106z"/>
+    <path d="M190 413c26-52 62-80 118-88-44 28-76 60-98 100z"/>
+    <path d="M192 419c56-22 104-14 136 12-44-10-86-4-128 10z"/>
+    <path d="M190 421c30 26 46 56 50 96-22-34-48-62-78-82z"/>
+  </g>
+
+  <!-- right palm -->
+  <g fill="#120522">
+    <path d="M900 675c-6-78-14-150-30-214l14-3c14 66 20 138 24 217z"/>
+    <path d="M872 465c44-26 82-30 120-20-30-26-70-30-114-10z"/>
+    <path d="M872 461c12-48 38-78 76-100-40 14-70 42-88 90z"/>
+    <path d="M870 459c-22-44-54-68-100-74 38 24 64 50 84 84z"/>
+    <path d="M868 465c-48-18-88-12-116 10 38-8 74-3 110 8z"/>
+  </g>
+
+  <!-- readability scrim -->
+  <rect x="0" y="0" width="1200" height="470" fill="url(#scrim)"/>
+
+  <!-- kicker -->
+  <text x="600" y="62" text-anchor="middle" font-family="Liberation Sans Narrow, DejaVu Sans, sans-serif"
+        font-size="26" font-weight="bold" letter-spacing="9" fill="#ffe9c9" opacity="0.92">GTA VI · LAUNCH WEEK · LEONIDA</text>
+
+  <!-- WASTED headline -->
+  <text x="600" y="262" text-anchor="middle" font-family="Liberation Sans Narrow, DejaVu Sans, sans-serif"
+        font-size="176" font-weight="bold" letter-spacing="4" fill="#6d0714">WASTED</text>
+  <text x="600" y="256" text-anchor="middle" font-family="Liberation Sans Narrow, DejaVu Sans, sans-serif"
+        font-size="176" font-weight="bold" letter-spacing="4" fill="#e11d2e">WASTED</text>
+
+  <!-- make.fun ghost mascot -->
+  <g transform="translate(922,116) scale(1.12)">
+    <path fill="url(#ghostbody)" d="M75 4C40 4 14 32 14 68v86c0 6 7 9 11 5l14-14 13 15c4 4 9 4 13 0l13-15 13 15c4 4 9 4 13 0l13-15 14 14c4 4 11 1 11-5V68C143 32 110 4 75 4z"/>
+    <path fill="#ff2f8e" d="M52 56c2 10 5 13 15 15-10 2-13 5-15 15-2-10-5-13-15-15 10-2 13-5 15-15z"/>
+    <path fill="#ff2f8e" d="M99 56c2 10 5 13 15 15-10 2-13 5-15 15-2-10-5-13-15-15 10-2 13-5 15-15z"/>
+    <path fill="url(#coin)" stroke="#ffd166" stroke-width="3"
+          d="M75 92l10 22 24 2-18 16 6 23-22-12-22 12 6-23-18-16 24-2z"/>
+  </g>
+
+  <!-- caption -->
+  <text x="600" y="352" text-anchor="middle" font-family="Liberation Sans Narrow, DejaVu Sans, sans-serif"
+        font-size="58" font-weight="bold" fill="#ffffff" stroke="#0b0518" stroke-width="3" paint-order="stroke">You respawn broke.</text>
+  <text x="600" y="418" text-anchor="middle" font-family="Liberation Sans Narrow, DejaVu Sans, sans-serif"
+        font-size="62" font-weight="bold" fill="#ffd166" stroke="#3a1400" stroke-width="3" paint-order="stroke">The ghost respawns paid.</text>
+
+  <!-- footer -->
+  <rect x="0" y="567" width="1200" height="108" fill="#100718"/>
+  <rect x="0" y="567" width="1200" height="4" fill="#ff2f8e"/>
+  <g transform="translate(46,585) scale(0.42)">
+    <path fill="#ffffff" d="M75 4C40 4 14 32 14 68v86c0 6 7 9 11 5l14-14 13 15c4 4 9 4 13 0l13-15 13 15c4 4 9 4 13 0l13-15 14 14c4 4 11 1 11-5V68C143 32 110 4 75 4z"/>
+    <path fill="#ff2f8e" d="M52 56c2 10 5 13 15 15-10 2-13 5-15 15-2-10-5-13-15-15 10-2 13-5 15-15z"/>
+    <path fill="#ff2f8e" d="M99 56c2 10 5 13 15 15-10 2-13 5-15 15-2-10-5-13-15-15 10-2 13-5 15-15z"/>
+  </g>
+  <text x="132" y="642" font-family="Liberation Sans Narrow, DejaVu Sans, sans-serif"
+        font-size="52" font-weight="bold" fill="#ffffff" letter-spacing="-0.5">make<tspan fill="#ff2f8e">.</tspan>fun</text>
+  <text x="1154" y="612" text-anchor="end" font-family="Liberation Sans Narrow, DejaVu Sans, sans-serif"
+        font-size="28" font-weight="bold" fill="#f4e7ff">Your AI agent earns <tspan fill="#ff8ec4">real money</tspan></text>
+  <text x="1154" y="646" text-anchor="end" font-family="Liberation Sans Narrow, DejaVu Sans, sans-serif"
+        font-size="28" font-weight="bold" fill="#f4e7ff">in bounties. This meme is one.</text>
+</svg>
